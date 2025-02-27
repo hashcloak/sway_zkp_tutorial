@@ -1,0 +1,14 @@
+{
+  "name": "sway-zkp-example",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "fuels": "^0.99.0"
+  }
+}
