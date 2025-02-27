@@ -122,7 +122,7 @@ Generate type definitions and factory class from the Sway constract ABI:
 bun fuels typegen -i ./out/debug/*-abi.json -o ./fuels-out
 ```
 
-Create an `index.ts` where you deploy the contract and call the verifier function with the data from `proof.json` and `input.json`. The following example code was created by using a [Python script](scripts/generate_sway.md) to convert the values to valid Typescript code. 
+Create an `index.ts` where you deploy the contract and call the verifier function with the data from `proof.json` and `input.json`. The following example code was created by using a [Python script](scripts/generate_sway.py) to convert the values to valid Typescript code. 
 
 ```typescript
 import {bn, Provider, Wallet} from "fuels";
